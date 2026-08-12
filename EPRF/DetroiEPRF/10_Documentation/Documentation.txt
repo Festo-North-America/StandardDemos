@@ -1,0 +1,21 @@
+Required Versions
+Festo Automation Suite Version: 2.12.0.436
+FAS CMMT-AS Plug-In Version: 2.12.0.60130
+CMMT-AS Firmware: 36.12.0.133
+
+Network Settings
+IPv4 Address: 192.168.0.1
+Subnet Mask: 255.255.255.0
+Gateway Address: n/a   
+
+Program Execution
+1. Connect to the drive via FAS Scan
+2. Read from the drive all parameters
+3. Navigate to the Control page
+4. Click the Record Table sub-page
+5. Click Start on Record 1
+
+Cleanup
+1. Stop the Record Table motion
+2. Retract the actuator to 0.00mm
+3. Power off the system and pack both demo cases
